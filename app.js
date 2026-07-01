@@ -10,54 +10,120 @@ window.PRODUCTS = [
     name: 'Brand Identity Toolkit',
     price: 240,
     category: 'Templates',
-    image: 'images/product-brand-toolkit.jpg',
+    image: 'product-brand-toolkit.jpg',
     description: 'A complete editable toolkit of logo lockups, colour systems and type guides, built to help you present a considered identity from day one.',
-    details: { format: 'Figma + PDF', delivery: 'Instant download', license: 'Single studio use' }
+    features: [
+
+    'Editable logo templates',
+
+    'Colour palette guide',
+
+    'Typography system',
+
+    'Instant download'
+
+  ],
+     details: { format: 'Figma + PDF', delivery: 'Instant download', license: 'Single studio use' }
   },
   {
     id: 'editorial-webkit',
     name: 'Editorial Web Kit',
     price: 180,
     category: 'Templates',
-    image: 'images/product-webkit.jpg',
+    image: 'product-webkit.jpg',
     description: 'A modular set of web page templates in a calm, editorial style — built for teams who want a considered site without starting from a blank page.',
-    details: { format: 'Figma + HTML', delivery: 'Instant download', license: 'Single studio use' }
+    features: [
+
+    'Editable logo templates',
+
+    'Colour palette guide',
+
+    'Typography system',
+
+    'Instant download'
+
+  ],
+     details: { format: 'Figma + HTML', delivery: 'Instant download', license: 'Single studio use' }
   },
   {
     id: 'social-frames',
     name: 'Social Content Frames',
     price: 65,
     category: 'Templates',
-    image: 'images/product-social-frames.jpg',
+    image: 'product-social-frames.jpg',
     description: 'Sixty layered frames for stories, grids and carousels, designed to keep a feed feeling cohesive without the daily design lift.',
-    details: { format: 'Figma + Canva', delivery: 'Instant download', license: 'Single studio use' }
+    features: [
+
+    'Editable logo templates',
+
+    'Colour palette guide',
+
+    'Typography system',
+
+    'Instant download'
+
+  ],
+     details: { format: 'Figma + Canva', delivery: 'Instant download', license: 'Single studio use' }
   },
   {
     id: 'strategy-workbook',
     name: 'Brand Strategy Workbook',
     price: 95,
     category: 'Guides',
-    image: 'images/product-workbook.jpg',
+    image: 'product-workbook.jpg',
     description: 'A guided workbook of prompts and frameworks for clarifying positioning, voice and audience before a single pixel gets designed.',
-    details: { format: 'PDF, 48 pages', delivery: 'Instant download', license: 'Personal use' }
+    features: [
+
+    'Editable logo templates',
+
+    'Colour palette guide',
+
+    'Typography system',
+
+    'Instant download'
+
+  ],
+     details: { format: 'PDF, 48 pages', delivery: 'Instant download', license: 'Personal use' }
   },
   {
     id: 'moodboard-set',
     name: 'Moodboard Starter Set',
     price: 48,
     category: 'Guides',
-    image: 'images/product-moodboard.jpg',
+    image: 'product-moodboard.jpg',
     description: 'Curated moodboard layouts and texture packs for grounding a new brand direction before client presentations.',
-    details: { format: 'PDF + JPG pack', delivery: 'Instant download', license: 'Personal use' }
+    features: [
+
+    'Editable logo templates',
+
+    'Colour palette guide',
+
+    'Typography system',
+
+    'Instant download'
+
+  ]
+   ,
+     details: { format: 'PDF + JPG pack', delivery: 'Instant download', license: 'Personal use' }
   },
   {
     id: 'launch-checklist',
     name: 'Website Launch Checklist',
     price: 32,
     category: 'Guides',
-    image: 'images/product-checklist.jpg',
+    image: 'product-checklist.jpg',
     description: 'A studio-tested, room-by-room checklist covering everything from copy to accessibility before a site goes live.',
-    details: { format: 'PDF, 12 pages', delivery: 'Instant download', license: 'Personal use' }
+    features: [
+
+    'Editable logo templates',
+
+    'Colour palette guide',
+
+    'Typography system',
+
+    'Instant download'
+
+  ],details: { format: 'PDF, 12 pages', delivery: 'Instant download', license: 'Personal use' }
   }
 ];
 
