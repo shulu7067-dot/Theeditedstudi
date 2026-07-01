@@ -645,6 +645,21 @@ section { padding: var(--space-xl) 0; }
 .product-meta-list { border-top: 1px solid var(--stone); margin-top: var(--space-md); padding-top: var(--space-md); }
 .product-meta-list dt { font-size: 0.78rem; letter-spacing: 0.04em; color: var(--warm-grey); text-transform: uppercase; margin-top: var(--space-xs); }
 .product-meta-list dd { margin: 0 0 var(--space-xs); }
+.product-features {
+  margin: var(--space-md) 0;
+  padding-left: 1.2rem;
+}
+
+.product-features li {
+  margin-bottom: 0.6rem;
+  color: var(--charcoal);
+  line-height: 1.6;
+}
+
+.product-info h3 {
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-sm);
+}
 
 /* ---------------------------------- Cart page ---------------------------------- */
 .cart-layout {
