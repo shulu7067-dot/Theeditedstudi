@@ -1,0 +1,70 @@
+/* ==========================================================================
+   THE EDITED STUDIO — Responsive Rules
+   Mobile-first overrides for tablet and desktop already assumed in base
+   styles; this file narrows the layout down from desktop.
+   ========================================================================== */
+
+/* ---------- Tablet: <= 1024px ---------- */
+@media (max-width: 1024px) {
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .feature-list { grid-template-columns: repeat(2, 1fr); }
+  .testimonial-track { grid-template-columns: repeat(2, 1fr); }
+  .insta-grid { grid-template-columns: repeat(4, 1fr); }
+  .footer-grid { grid-template-columns: 1.4fr 1fr 1fr; }
+  .footer-grid .footer-newsletter { grid-column: 1 / -1; }
+  .values-grid { grid-template-columns: repeat(2, 1fr); }
+  .process-steps { grid-template-columns: repeat(2, 1fr); }
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .case-study { grid-template-columns: 1fr; }
+  .product-layout { grid-template-columns: 1fr; }
+  .cart-layout { grid-template-columns: 1fr; }
+  .summary-card { position: static; }
+  .contact-layout { grid-template-columns: 1fr; }
+  .story-grid { grid-template-columns: 1fr; }
+  .story-figure { order: -1; }
+}
+
+/* ---------- Mobile: <= 720px ---------- */
+@media (max-width: 720px) {
+  section { padding: var(--space-lg) 0; }
+  .container { padding: 0 var(--space-sm); }
+
+  .nav-links { display: none; }
+  .hamburger { display: inline-flex; }
+
+  .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  .feature-list { grid-template-columns: 1fr 1fr; }
+  .testimonial-track { grid-template-columns: 1fr; }
+  .insta-grid { grid-template-columns: repeat(3, 1fr); }
+
+  .footer-grid { grid-template-columns: 1fr; gap: var(--space-md); text-align: left; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+
+  .values-grid { grid-template-columns: 1fr; }
+  .process-steps { grid-template-columns: 1fr 1fr; }
+  .team-grid { grid-template-columns: 1fr 1fr; }
+
+  .intro { padding-top: var(--space-xl); }
+  .intro-actions { flex-direction: column; align-items: stretch; }
+  .intro-actions .btn { width: 100%; }
+
+  .newsletter-form { flex-direction: column; }
+
+  .cart-table thead { display: none; }
+  .cart-table, .cart-table tbody, .cart-table tr, .cart-table td { display: block; width: 100%; }
+  .cart-table tr { border-bottom: 1px solid var(--stone); padding: var(--space-sm) 0; }
+  .cart-table td { border-bottom: none; padding: 0.35rem 0; }
+  .cart-item-info { align-items: flex-start; }
+
+  .product-gallery-thumbs { grid-template-columns: repeat(4, 1fr); }
+
+  .filter-bar { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.5rem; }
+
+  h1 { max-width: 100%; }
+}
+
+@media (max-width: 460px) {
+  .feature-list, .process-steps, .team-grid { grid-template-columns: 1fr; }
+  .insta-grid { grid-template-columns: repeat(2, 1fr); }
+}
