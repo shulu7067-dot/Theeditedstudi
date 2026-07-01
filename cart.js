@@ -101,7 +101,7 @@
   }
 
   function formatPrice(amount) {
-    return '$' + amount.toFixed(2);
+    return 'R' + amount.toFixed(2);
   }
 
   /** Update every cart-count badge on the page (nav icon). */
