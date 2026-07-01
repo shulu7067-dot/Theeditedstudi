@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product — The Edited Studio</title>
+<meta name="description" content="Product details from The Edited Studio shop.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="announcement-bar">Thoughtfully crafted digital experiences for modern brands.</div>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">The Edited <span>Studio</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="shop.html" aria-current="page">Shop</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-utility">
+      <a href="cart.html" class="icon-btn" aria-label="View cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-count" aria-live="polite">0</span>
+      </a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile">
+  <div class="mobile-nav-top">
+    <span class="logo">The Edited <span>Studio</span></span>
+    <button class="mobile-nav-close btn-ghost btn btn-sm" aria-label="Close menu">Close</button>
+  </div>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="shop.html">Shop</a>
+  <a href="contact.html">Contact</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+<main id="main">
+  <section style="padding-top: var(--space-lg);">
+    <div class="container">
+      <p class="breadcrumb"><a href="shop.html">Shop</a> / <span data-p-category>Product</span></p>
+
+      <div class="product-layout" data-product-page>
+        <div class="product-gallery">
+          <div class="product-gallery-main">
+            <img data-p-main-image src="" alt="" loading="lazy">
+          </div>
+          <div class="product-gallery-thumbs" data-p-thumbs></div>
+        </div>
+
+        <div class="product-info">
+          <span class="eyebrow" data-p-category>Category</span>
+          <h1 data-p-name>Product name</h1>
+          <p class="price" data-p-price>$0</p>
+          <p data-p-desc>Description.</p>
+
+          <div class="product-actions">
+            <div class="qty-selector">
+              <button type="button" data-qty-decrease aria-label="Decrease quantity">−</button>
+              <input type="text" inputmode="numeric" value="1" data-qty-input aria-label="Quantity">
+              <button type="button" data-qty-increase aria-label="Increase quantity">+</button>
+            </div>
+            <button class="btn" data-add-to-cart>Add to cart</button>
+          </div>
+
+          <dl class="product-meta-list" data-p-meta></dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="related-products">
+    <div class="container">
+      <div class="section-heading left">
+        <span class="eyebrow">You may also like</span>
+        <h2>Related products</h2>
+      </div>
+      <div class="grid grid-3" data-related-grid></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="logo">The Edited <span>Studio</span></a>
+        <p>A digital studio focused on clarity, refinement and purposeful growth.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="The Edited Studio on Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="The Edited Studio on TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M16 8v8a4 4 0 1 1-4-4"/><path d="M16 8a4 4 0 0 0 4 4V8h-4z"/></svg></a>
+          <a href="#" aria-label="The Edited Studio on Pinterest"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9 21c1-3 2-8 2-11"/><path d="M9 13c0-2.5 1.5-5 4.5-5 2.5 0 4 1.7 4 4.2 0 3-1.5 5.8-4 5.8-1 0-1.8-.5-2.1-1"/></svg></a>
+        </div>
+      </div>
+      <nav>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Website Design</a></li>
+          <li><a href="services.html">Brand Identity</a></li>
+          <li><a href="services.html">Social Media Design</a></li>
+          <li><a href="services.html">Digital Strategy</a></li>
+        </ul>
+      </nav>
+      <div class="footer-newsletter">
+        <h4>Studio Journal</h4>
+        <p style="color:var(--warm-grey); font-size:0.9rem;">Occasional notes on design and growth, straight to your inbox.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 The Edited Studio. All rights reserved.</span>
+      <span><a href="contact.html">Privacy</a> &nbsp;·&nbsp; <a href="contact.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/cart.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
