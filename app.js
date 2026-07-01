@@ -175,7 +175,7 @@ function renderShopGrid() {
         <div class="card-body">
           <span class="tag">${p.category}</span>
           <h3><a href="product.html?id=${p.id}">${p.name}</a></h3>
-          <p>${p.description}</p>
+          
           <div class="card-meta">
           <span class="price">R${p.price}</span>
             <button class="btn btn-sm" data-quick-add="${p.id}">Add to cart</button>
