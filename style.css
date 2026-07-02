@@ -497,7 +497,7 @@ section { padding: var(--space-xl) 0; }
 
 /* ---------------------------------- Page header (inner pages) ---------------------------------- */
 .page-header {
-  height: 90px;
+  height: 130px;
   max-width: 728px;
   margin: 2rem auto;
   padding: 0 1.5rem;
