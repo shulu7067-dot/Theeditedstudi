@@ -287,15 +287,23 @@ section { padding: var(--space-xl) 0; }
 
 /* ---------------------------------- Intro (home) ---------------------------------- */
 .intro {
-  padding-top: var(--space-2xl);
-  padding-bottom: var(--space-lg);
+  height: 300px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  overflow: hidden;
 }
 .intro .eyebrow { display: block; }
 .intro h1 { max-width: 16ch; margin: 0 auto var(--space-md); }
 .intro .lede { margin: 0 auto var(--space-md); }
 .intro-actions { display: flex; gap: var(--space-sm); justify-content: center; flex-wrap: wrap; }
 .intro-figure {
+   display: none;
   margin-top: var(--space-xl);
   aspect-ratio: 21/9;
   background: linear-gradient(135deg, var(--warm-cream), var(--stone));
