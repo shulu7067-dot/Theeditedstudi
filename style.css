@@ -326,12 +326,19 @@ section { padding: var(--space-xl) 0; }
   border-color: var(--taupe);
 }
 .card-media {
-  aspect-ratio: auto;
+  display: block;
   background: var(--warm-cream);
   height: 220px;
   overflow: hidden;
+
 }
-.card-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 600ms ease; }
+.card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 600ms ease;
+}
 .card:hover .card-media img { transform: scale(1.04); }
 .card-body { padding: var(--space-md); }
 .card-body h3 { margin-bottom: 0.4rem; }
