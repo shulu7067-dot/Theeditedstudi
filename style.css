@@ -499,7 +499,7 @@ section { padding: var(--space-xl) 0; }
 .page-header {
   height: 90px;
   max-width: 728px;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 0 2rem;
   display: flex;
   justify-content: center;
@@ -507,17 +507,27 @@ section { padding: var(--space-xl) 0; }
   text-align: center;
   background: var(--warm-cream);
   overflow: hidden;
+  border-radius: var(--radius);
 }
-.page-header .eyebrow { display: block; }
-.page-header p.lede { margin: 0 auto; }
-.breadcrumb {
-  font-size: 0.78rem;
-  color: var(--warm-grey);
-  letter-spacing: 0.03em;
-  margin-bottom: var(--space-sm);
-}
-.breadcrumb a:hover { color: var(--charcoal); }
 
+/* Hide extra text because a 90px hero is too short */
+.page-header .eyebrow,
+.page-header .lede,
+.page-header p,
+.page-header .breadcrumb {
+  display: none;
+}
+
+/* Keep only the page title */
+.page-header h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  line-height: 1.1;
+}
+
+.breadcrumb a:hover {
+  color: var(--charcoal);
+}
 /* ---------------------------------- About page ---------------------------------- */
 .story-grid {
   display: grid;
