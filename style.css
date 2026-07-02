@@ -497,9 +497,16 @@ section { padding: var(--space-xl) 0; }
 
 /* ---------------------------------- Page header (inner pages) ---------------------------------- */
 .page-header {
-  padding: var(--space-xl) 0 var(--space-lg);
+  height: 90px;
+  max-width: 728px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background: var(--warm-cream);
+  overflow: hidden;
 }
 .page-header .eyebrow { display: block; }
 .page-header p.lede { margin: 0 auto; }
